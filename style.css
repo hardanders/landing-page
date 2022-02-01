@@ -1,11 +1,15 @@
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -14,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-p {
+.para {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
@@ -31,12 +35,13 @@ h2 {
 .header {
     display: flex;
     justify-content: space-around;
+    margin-top: 16px;
 }
 
 .header-main {
     margin-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 50px;
 }
 
@@ -44,13 +49,13 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    wrap: wrap;
     width: auto;
 }
 
 .header-header {
     color: #f9faf8;
     font-weight: bolder;
+    flex-wrap: wrap;
     font-size: 48px;
 }
 
@@ -64,6 +69,11 @@ h2 {
 .header-img {
     width:500px;
     height: 200px;
+    background-color: #8a8b8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .round-image {
@@ -78,11 +88,14 @@ h2 {
 
 .one {
     background-color: #1f2937;
+    padding: 0px 150px;
     padding-bottom: 100px;
 }
 
 .two {
     padding-bottom: 100px;
+    display:flex;
+    flex-direction: column;
 }
 
 .three {
@@ -101,8 +114,9 @@ h2 {
 
 .pics {
     display: flex;
-    justify-content: space-evenly;
-    gap: 24px;
+    justify-content: center;
+    gap: 54px;
+    flex-wrap: wrap;
 }
 
 .author {
@@ -114,7 +128,8 @@ h2 {
     color: #f9faf8;
     font-size: 24px;
     font-weight: bolder;
-    margin-top: 16px;
+    flex-wrap: wrap;
+    width: 500px;
 }
 
 .top-button {
