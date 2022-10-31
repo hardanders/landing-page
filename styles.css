@@ -112,6 +112,10 @@ a {
     width: 150px;
 }
 
+.card-txt {
+    font-style: italic;
+}
+
 .round-img {
     border: 4px solid #3882F6;
     border-radius: 16px;
@@ -121,16 +125,71 @@ a {
 
 .three {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote {
     display: flex;
     flex-direction:column;
     align-items: center;
+    width: 1000px;
+}
+
+.quote-txt {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 16px;
 }
 
 .quote-author {
     align-self: flex-end;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.modal {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #3882F6;
+    padding: 32px 74px;
+    gap: 100px;
+    border-radius: 8px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.call-header {
+    font-weight: bold;
+}
+
+.call-txt {
+    color: #E5E7EB;
+}
+
+.call-button {
+    text-align: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 32px;
 }
 
 .five {
@@ -138,6 +197,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 64px;
 }
 
 .footer {
